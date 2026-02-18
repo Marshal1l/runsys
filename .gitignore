@@ -1,0 +1,102 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# IDE - IntelliJ / CLion / RustRover
+.idea/
+*.iml
+*.iws
+
+# IDE - Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# IDE - Emacs
+*~
+\#*\#
+.#*
+
+# OS - macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# OS - Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# OS - Linux
+*~
+.nfs*
+
+# Test artifacts
+/tmp/
+/tmp/runsys/
+/tmp/runsys-*/
+/tmp/ubuntu-*/
+/tmp/test-*/
+*.test
+
+# Log files
+*.log
+logs/
+log/
+
+# Debug files
+*.pdb
+
+# Coverage
+coverage/
+*.profraw
+*.profdata
+
+# Documentation build artifacts
+doc/*.html
+doc/*.pdf
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Core dumps
+core
+core.*
+vgcore.*
+
+# Profiling data
+perf.data
+perf.data.old
+cachegrind.out.*
+callgrind.out.*
+
+# Misc
+*.tmp
+*.temp
+.cache/
+
+# Ignore all hidden files except .gitignore
+.*
+!.gitignore
+!.github/
+!.gitattributes
