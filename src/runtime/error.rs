@@ -45,6 +45,9 @@ pub enum RuntimeError {
 
     #[error("CStringError: {0}")]
     CStringError(std::ffi::NulError),
+
+    #[error("CgroupError: {0}")]
+    CgroupError(#[source] std::io::Error),
 }
 
 impl From<std::io::Error> for RuntimeError {
